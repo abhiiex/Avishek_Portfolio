@@ -1,6 +1,6 @@
 import React from "react";
 import Toolstack from "./Toolstack";
-import Github from "/Avishek_Portfolio/src/Components/About/GithubRepo";
+import Github from "./GithubRepo";
 import Techstack from "./Techstack";
 function Skillset() {
     return (
