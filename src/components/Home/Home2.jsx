@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript. </b>
+                <b className="purple"> React.js, MongoDB, Node.js, Python, Javascript. </b>
               </i>
               <br />
               <br />
@@ -53,9 +53,9 @@ function Home2() {
               </i>
             </p>
           </Col>
-           <Col md={4} className="myAvtar justify-center pt-[9em]">
+           <Col md={4} className="myAvtar flex justify-center pt-[9em]">
             <Tilt className="">
-              <img src={myImg} className="img-fluid ml-[65px]" alt="avatar" />
+              <img src={myImg} className="max-w-[100%] h-auto" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

@@ -25,15 +25,18 @@ function About2() {
                     <ul>
                         <li className="about-activity">
                             {" "}
-                            <ImPointRight /> Playing Games
+                            <ImPointRight className="float-left mt-1 " /> &nbsp; Playing Games
                         </li>
                         <li className="about-activity">
                             {" "}
-                            <ImPointRight /> Writing Tech Blogs{" "}
+                            <ImPointRight className="float-left mt-1"/> &nbsp; Writing Tech Blogs{" "}
                         </li>
                         <li className="about-activity">
                             {" "}
-                            <ImPointRight /> Travelling{" "}
+                            <ImPointRight className="float-left mt-1" /> &nbsp; Travelling{" "}
+                        </li>
+                        <li className='about-activity'>
+                                <ImPointRight className="float-left mt-1" /> &nbsp; Reading Books
                         </li>
                     </ul>
 

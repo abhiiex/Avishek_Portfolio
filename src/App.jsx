@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home1 from './components/Home/Home1.jsx'; // or .jsx
 import About from "./components/About/About";
 // import Projects from "./components/Projects/Projects";
-// import Resume from "./components/Resume/ResumeNew";
+import Resume from "./components/Resume/ResumeNew";
 
 import {
   BrowserRouter as Router,
@@ -39,7 +39,7 @@ function App() {
           <Route path="/" element={<Home1/>} />
           {/* <Route path="/project" element={<Projects />} /> */}
           <Route path="/about" element={<About/>} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
+          <Route path="/resume" element={<Resume />} />
           {/* <Route path="*" element={<Navigate to="/"/>} /> */}
         </Routes>
      <Footer/>

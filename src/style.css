@@ -229,7 +229,7 @@ button:focus {
   font-size: 2.4em !important;
   color: #b562d6 !important;
 }
-
+ 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
@@ -239,16 +239,20 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
+} 
+
+/* FIXED IT */
+
+.myAvtar {
+   justify-content: center;
+   padding-top : 9em;
 }
- /* FIXED IT */
-
-
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
-}
+} 
 
 
 .home-social-icons {
@@ -409,4 +413,27 @@ button:focus {
   .about-img {
     padding-top: 0 !important;
   }
+}
+
+/* Resume */
+
+.resume {
+  padding-right: 80px !important;
+}
+
+.resume {
+  padding-left: 80px !important;
+}
+
+@media (max-width: 767px) {
+   .resume {
+    /* width : 0.4 */
+  }
+
+}
+
+@media (width : 375) {
+    .resume {
+      
+    }
 }
