@@ -7,6 +7,9 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import {
   AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
 } from "react-icons/ai";
 
 // import { CgFileDocument } from "react-icons/cg";
@@ -53,7 +56,7 @@ function NavBar() {
               <Nav.Link as={Link} 
               className={({isActive})=> ` ${isActive ? "text-purple-950" : "text-white"}`}
               to="/" onClick={() => updateExpanded(false)}>
-               Home
+            { /* <AiOutlineHome className="mb-[2px]"/> */ } Home
               </Nav.Link>
             </Nav.Item>
 

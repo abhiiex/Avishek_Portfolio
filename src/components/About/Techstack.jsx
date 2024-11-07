@@ -20,10 +20,7 @@ function Techstack() {
     return (
         <Row className="justify-center pb-[50px]">
             <Col xs={4} md={2} className="tech-icons">
-                <CgCPlusPlus />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1 />
+                <DiJavascript1 /> 
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiNodejs />
@@ -42,9 +39,6 @@ function Techstack() {
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiFirebase />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <SiPostgresql />
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <DiPython />

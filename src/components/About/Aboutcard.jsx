@@ -11,12 +11,14 @@ function About2() {
                         <span className="purple">Avishek Kr Pandit</span> from{" "}
                         <span className="purple"> Kolkata, India.</span>
                         <br />
-                        I am currently employed as a software developer at the
+                        I did my internship from Hawkscode (Eash Shiksha).{" "}During My Internship Period I learned About Many Web Development Technologies And Framework.
                         <br />
-                        Laxmi Chit Fund.
+                        I am currently looking for JOB to implement my knowledge into work,
+                        learn about real world products and contribute in company growth.
                         <br />
-                        I have completed Integrated BCA at NIT(Kolkata).
+                        I&nbsp;am pursuing<span className="purple">{" "}Bachelor Of Computer Application</span> final year from <span className="purple"> Narula Intitute Of Technology (Kolkata).</span>
                         <br />
+                        If you want to know more about me then please do check my <span className="purple">CV.</span> 
                     </p>
                     <p className="text-justify text-[1.3rem] pb-[9px]">
                         Apart from coding, some other activities that I love to
