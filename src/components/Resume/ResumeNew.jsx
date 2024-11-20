@@ -29,8 +29,8 @@ function ResumeNew() {
                     ><AiOutlineDownload className='float-left h-auto mt-1'/>&nbsp;Download CV
                     </Button>
               </div>
-              <div className='resume pt-[50px] pb-[50px] justify-center bg-red-700'>
-                  <Document file={pdf} className='flex justify-center bg-slate-600 '>
+              <div className='resume pt-[50px] pb-[50px] justify-center'>
+                  <Document file={pdf} className='flex justify-center '>
                       <Page renderTextLayer={false} pageNumber={1} scale={width > 786 ? 1.7 : 0.6}  />
                   </Document>
               </div>
