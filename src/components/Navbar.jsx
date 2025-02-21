@@ -54,7 +54,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} 
-              className={({isActive})=> ` ${isActive ? "text-purple-950" : "text-white"}`}
+              className={({isActive})=> ` ${(isActive) ? "text-purple-950" : "text-white"}`}
               to="/" onClick={() => updateExpanded(false)}>
             { /* <AiOutlineHome className="mb-[2px]"/> */ } Home
               </Nav.Link>
